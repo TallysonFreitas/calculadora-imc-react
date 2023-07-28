@@ -1,0 +1,45 @@
+.menu{
+    display: flex;
+    max-width:980px;
+    width: 100%;
+    margin: auto auto;
+    background-color: #f44;
+    height: 50vh;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.menu__item{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input{
+    padding: 16px;
+    width:200px;
+    height: 20px;
+    text-align: center;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 16px;
+    border: 1px solid black;
+    outline: 1px solid #f44;
+}
+
+.button{
+    display: block;
+    margin: o auto;
+    width: 200px;
+    height:48px;
+    padding: 16px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.resultado{
+    width: 100%;
+    text-align: center;
+}
